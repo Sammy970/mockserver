@@ -1,0 +1,327 @@
+{
+  "playlist": {
+    "backgroundMusic": {
+      "url": "https://samplelib.com/lib/preview/mp3/sample-15s.mp3",
+      "loop": true,
+      "volume": 0.3
+    },
+    "items": [
+      {
+        "itemId": 1,
+        "name": "Social Media Dashboard",
+        "layout": {
+          "grid": {
+            "rows": [
+              {
+                "height": 20,
+                "cells": [
+                  {
+                    "width": 70,
+                    "type": "text",
+                    "content": {
+                      "text": "Social Media Highlights",
+                      "font": "Arial",
+                      "fontSize": 36,
+                      "color": "#1DA1F2"
+                    }
+                  },
+                  {
+                    "width": 30,
+                    "type": "text",
+                    "content": {
+                      "text": "LIVE FEED",
+                      "font": "Arial",
+                      "fontSize": 24,
+                      "color": "#FF0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "height": 50,
+                "cells": [
+                  {
+                    "width": 33.33,
+                    "type": "video",
+                    "content": {
+                      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                      "controls": false
+                    }
+                  },
+                  {
+                    "width": 33.33,
+                    "type": "PieChart",
+                    "content": {
+                      "data": [
+                        {
+                          "name": "Twitter",
+                          "population": 45,
+                          "color": "#1DA1F2"
+                        },
+                        {
+                          "name": "Instagram",
+                          "population": 35,
+                          "color": "#E1306C"
+                        },
+                        {
+                          "name": "LinkedIn",
+                          "population": 20,
+                          "color": "#0077B5"
+                        }
+                      ],
+                      "height": 200
+                    }
+                  },
+                  {
+                    "width": 33.33,
+                    "type": "text",
+                    "content": {
+                      "text": "Trending Topics:\n\n#TechInnovation\n#DigitalTransformation\n#FutureOfWork\n#AI\n#Sustainability",
+                      "font": "Arial",
+                      "fontSize": 20,
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "height": 30,
+                "cells": [
+                  {
+                    "width": 25,
+                    "type": "text",
+                    "content": {
+                      "text": "Followers\n125K",
+                      "font": "Arial",
+                      "fontSize": 22,
+                      "color": "#4CAF50"
+                    }
+                  },
+                  {
+                    "width": 25,
+                    "type": "text",
+                    "content": {
+                      "text": "Engagement\n4.8%",
+                      "font": "Arial",
+                      "fontSize": 22,
+                      "color": "#FFC107"
+                    }
+                  },
+                  {
+                    "width": 25,
+                    "type": "text",
+                    "content": {
+                      "text": "Posts\n1.2K",
+                      "font": "Arial",
+                      "fontSize": 22,
+                      "color": "#2196F3"
+                    }
+                  },
+                  {
+                    "width": 25,
+                    "type": "text",
+                    "content": {
+                      "text": "Reach\n500K",
+                      "font": "Arial",
+                      "fontSize": 22,
+                      "color": "#9C27B0"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "durationInSeconds": 8,
+        "animationEffect": {
+          "type": "slideHorizontal",
+          "durationInSeconds": 1.5
+        }
+      },
+      {
+        "itemId": 2,
+        "name": "Digital Menu Board",
+        "layout": {
+          "grid": {
+            "rows": [
+              {
+                "height": 15,
+                "cells": [
+                  {
+                    "width": 100,
+                    "type": "text",
+                    "content": {
+                      "text": "Today's Special Menu",
+                      "font": "Arial",
+                      "fontSize": 42,
+                      "color": "#FFD700"
+                    }
+                  }
+                ]
+              },
+              {
+                "height": 70,
+                "cells": [
+                  {
+                    "width": 33.33,
+                    "type": "text",
+                    "content": {
+                      "text": "Appetizers\n\n🥗 Caesar Salad $12\n🍜 Soup of the Day $8\n🦐 Garlic Shrimp $15",
+                      "font": "Arial",
+                      "fontSize": 24,
+                      "color": "#FFFFFF"
+                    }
+                  },
+                  {
+                    "width": 33.33,
+                    "type": "text",
+                    "content": {
+                      "text": "Main Course\n\n🥩 Ribeye Steak $35\n🐟 Grilled Salmon $28\n🍝 Truffle Pasta $24",
+                      "font": "Arial",
+                      "fontSize": 24,
+                      "color": "#FFFFFF"
+                    }
+                  },
+                  {
+                    "width": 33.33,
+                    "type": "text",
+                    "content": {
+                      "text": "Desserts\n\n🍰 Cheesecake $9\n🍨 Ice Cream $7\n🍮 Crème Brûlée $11",
+                      "font": "Arial",
+                      "fontSize": 24,
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "height": 15,
+                "cells": [
+                  {
+                    "width": 100,
+                    "type": "text",
+                    "content": {
+                      "text": "🌟 Chef's Recommendation: Truffle Pasta with Grilled Shrimp",
+                      "font": "Arial",
+                      "fontSize": 28,
+                      "color": "#FFD700"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "durationInSeconds": 7,
+        "animationEffect": {
+          "type": "fade",
+          "durationInSeconds": 1
+        }
+      },
+      {
+        "itemId": 3,
+        "name": "Corporate Dashboard",
+        "layout": {
+          "grid": {
+            "rows": [
+              {
+                "height": 20,
+                "cells": [
+                  {
+                    "width": 100,
+                    "type": "text",
+                    "content": {
+                      "text": "Company Updates & Achievements",
+                      "font": "Arial",
+                      "fontSize": 36,
+                      "color": "#4CAF50"
+                    }
+                  }
+                ]
+              },
+              {
+                "height": 50,
+                "cells": [
+                  {
+                    "width": 60,
+                    "type": "PieChart",
+                    "content": {
+                      "data": [
+                        {
+                          "name": "Projects",
+                          "population": 40,
+                          "color": "#2196F3"
+                        },
+                        {
+                          "name": "Revenue",
+                          "population": 35,
+                          "color": "#4CAF50"
+                        },
+                        {
+                          "name": "Growth",
+                          "population": 25,
+                          "color": "#FFC107"
+                        }
+                      ],
+                      "height": 200
+                    }
+                  },
+                  {
+                    "width": 40,
+                    "type": "text",
+                    "content": {
+                      "text": "Q4 Highlights:\n\n✓ 40% Revenue Growth\n✓ 5 New Major Clients\n✓ 2 Product Launches\n✓ 95% Client Satisfaction",
+                      "font": "Arial",
+                      "fontSize": 24,
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "height": 30,
+                "cells": [
+                  {
+                    "width": 50,
+                    "type": "text",
+                    "content": {
+                      "text": "Upcoming Events:\n• Annual Meeting - Dec 15\n• Product Launch - Dec 20",
+                      "font": "Arial",
+                      "fontSize": 22,
+                      "color": "#FFC107"
+                    }
+                  },
+                  {
+                    "width": 50,
+                    "type": "text",
+                    "content": {
+                      "text": "Employee of the Month:\nJane Smith\nSenior Developer",
+                      "font": "Arial",
+                      "fontSize": 22,
+                      "color": "#2196F3"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "durationInSeconds": 6,
+        "animationEffect": {
+          "type": "slideVertical",
+          "durationInSeconds": 1.5
+        }
+      }
+    ],
+    "ticker": {
+      "text": "🌟 Company stock up 15% | 📈 New office opening next month | 🎉 Annual company party on December 15th | 💡 Innovation challenge starts next week",
+      "speed": 1.2,
+      "style": {
+        "backgroundColor": "#1a1a1a"
+      },
+      "textStyle": {
+        "color": "#FFFFFF"
+      }
+    }
+  }
+}
